@@ -1,0 +1,35 @@
+.search {
+  width: 90vw;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.form {
+  width: 88.5vw;
+}
+
+.form input {
+  width: 100%;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  border-top: 1px dotted goldenrod;
+  border-bottom: 1px dotted goldenrod;
+  border-left: 2px solid lightgoldenrodyellow;
+  border-right: 2px solid lightgoldenrodyellow;
+}
+
+.form input::placeholder {
+  text-align: center;
+}
+
+.btn {
+  margin: 1rem auto;
+  width: 15%;
+  padding: 0.2rem;
+  letter-spacing: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.6);
+}

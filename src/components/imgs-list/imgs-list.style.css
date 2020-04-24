@@ -1,0 +1,30 @@
+.img-list {
+  width: 90vw;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.preview {
+  width: 60%;
+  height: 120px;
+}
+
+.view {
+  width: 60%;
+  margin: 0.5rem auto;
+  border: 0;
+  border-top: 1px dotted goldenrod;
+  border-bottom: 1px dotted goldenrod;
+  padding: 0.1rem;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  background: lightgoldenrodyellow;
+}
